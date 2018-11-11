@@ -1,14 +1,8 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { Button } from '@blueprintjs/core';
 
 export default class JumboComp extends Component {
   static propTypes = {
     
-  };
-
-  state = {
-    username: '',
   };
 
   render() {

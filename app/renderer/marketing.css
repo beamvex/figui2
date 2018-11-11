@@ -24,6 +24,10 @@ label {
     color: #34495e;
 }
 
+.pure-g {
+    letter-spacing: -.05em;
+}
+
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
