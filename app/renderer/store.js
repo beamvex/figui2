@@ -5,16 +5,20 @@ import thunk from 'redux-thunk';
 
 import user from './reducers/user';
 import userActions from './actions/user';
+import footballers from './reducers/footballers';
+import footballActions from './actions/footballers';
 
 export default function configureStore(initialState, routerHistory) {
   const router = routerMiddleware(routerHistory);
 
   const actionCreators = {
+    ...footballActions,
     ...userActions,
     push,
   };
 
   const reducers = {
+    footballers,
     user,
   };
 

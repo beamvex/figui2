@@ -23,7 +23,8 @@
     "redux-localstorage": "^0.4.1",
     "redux-thunk": "^2.2.0",
     "@blueprintjs/core":"^3.8.0",
-    "purecss": "^1.0.0"
+    "purecss": "^1.0.0",
+    "node-fetch": "^2.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
