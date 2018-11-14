@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Card } from "@blueprintjs/core";
 
 export default class FooterComp extends Component {
   static propTypes = {
@@ -7,9 +8,9 @@ export default class FooterComp extends Component {
 
   render() {
     return (
-        <div className="footer l-box is-center">
-        View the source of this layout to learn more. Made with love by the YUI Team.
-    </div>
+        <Card className="footer">
+          View the source of this layout to learn more. Made with love by the YUI Team.
+        </Card>
     );
   }
 }

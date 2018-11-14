@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-export default class ListComp extends Component {
+export default class ContentPaneComp extends Component {
   static propTypes = {
     
   };
 
   render() {
     return (
-        <div className="listbar">
+        <div id="content" className="pure-u-3-5">
             
         </div>
     );

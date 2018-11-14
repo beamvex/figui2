@@ -4,6 +4,7 @@ import { Button } from '@blueprintjs/core';
 import Header from '../containers/Header';
 import SideBar from '../containers/SideBar';
 import ListBar from '../containers/ListBar';
+import ContentPane from '../containers/ContentPane';
 import Footer from '../containers/Footer';
 
 export default class Login extends Component {
@@ -30,15 +31,19 @@ export default class Login extends Component {
 
   render() {
     return (
-        <div id="layout" className="content pure-g">
-            <Header/>
+      
+        <div id="layout" className="pure-g">
+          <Header />
+        
+          <SideBar />
 
-            <SideBar/>
+          <ListBar />
 
-            <ListBar/>
+          <ContentPane />
+       
+          <Footer />
+        </div>
 
-            <Footer/>
-      </div>
     );
   }
 }
